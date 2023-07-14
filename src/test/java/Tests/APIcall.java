@@ -20,13 +20,13 @@ public class APIcall {
 		String URL = "https://apigwuat.kotak.com:8443/Fulcrum_Report";
 		Enc enc1 = new Enc();
 		String req1 = "{\r\n"
-		        + "  \"userName\": \"KMBL00005\",\r\n"
-		        + "  \"sfReferenceID\": \"a0OC30000010aisMAA\",\r\n"
-		        + "  \"pan\": \"AAECM9963D\",\r\n"
-		        + "  \"loanAppID\": \"SME/2023-24/000950\",\r\n"
-		        + "  \"empName\": \"NikitaCredit\",\r\n"
-		        + "  \"empId\": \"9850\"\r\n"
-		        + "}";
+				+ "  \"userName\": \"KMBL00005\",\r\n"
+				+ "  \"sfReferenceID\": \"a0OC30000010aisMAA\",\r\n"
+				+ "  \"pan\": \"AAECM9963D\",\r\n"
+				+ "  \"loanAppID\": \"SME/2023-24/000950\",\r\n"
+				+ "  \"empName\": \"NikitaCredit\",\r\n"
+				+ "  \"empId\": \"Vijay9850\"\r\n"
+				+ "}";
 		String key1 = "a19446820c1e414abe277cebe01119ba";
 		String req = enc1.encrypt(req1, key1);
 		// System.out.println(req);
